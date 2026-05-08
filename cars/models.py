@@ -1,6 +1,6 @@
 from django.db import models
 
-# Base Model / Parent
+
 class Vehicle(models.Model):
     brand = models.CharField(max_length=100)
     price = models.FloatField()
